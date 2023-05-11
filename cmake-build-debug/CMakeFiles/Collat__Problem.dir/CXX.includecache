@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/delphia/Desktop/integration/学习/ C++ /CS232242/ExamProject/Collat_ Problem/main.cpp
+iostream
+-
+unordered_map
+-
+

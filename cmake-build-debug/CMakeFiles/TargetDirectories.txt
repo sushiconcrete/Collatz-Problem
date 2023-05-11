@@ -1,0 +1,3 @@
+/Users/delphia/Desktop/integration/学习/ C++ /CS232242/ExamProject/Collat_ Problem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/delphia/Desktop/integration/学习/ C++ /CS232242/ExamProject/Collat_ Problem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/delphia/Desktop/integration/学习/ C++ /CS232242/ExamProject/Collat_ Problem/cmake-build-debug/CMakeFiles/Collat__Problem.dir
