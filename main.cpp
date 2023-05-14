@@ -16,11 +16,10 @@ struct ListNode {
 
 
 ListNode *LinkCollatz(long long num, unordered_map<long long, ListNode *> &m1) {
-    //if we find a node in hash set, immediately return the storing nodes, in order to cut off the extra calculations.
+    //if we find a node in hash set, immediately return the storing nodes, in order to cut off extra calculations.
     if (m1[num]) return m1[num];
-    // This is the interesting one: when we arrive here, it means that the number is never calculated before, so we decide to calculate
-    //              I test before, a m1[num] statement will create something like 0x0, which is quite same as a pointer
-    // So we create a pointer and pointing it to a new ListNode, which having num/2 when num is even,  3num+1 when it was odd.
+    // If not found then we calculate one.
+    // create a pointer and pointing it to a new ListNode, which having num/2 when num is even,  3num+1 when it was odd.
     m1[num] = new ListNode(num, (num % 2 == 0) ? LinkCollatz(num / 2, m1) : LinkCollatz(3 * num + 1, m1));
     return m1[num];
 }
